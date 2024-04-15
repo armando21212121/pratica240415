@@ -1,0 +1,18 @@
+num = int(input("digite um numero"))
+
+nm2 = num
+count = 0
+b = 0
+
+while num != 0:
+    
+    nm2 = num % 2 
+    num = num//2 
+    print(nm2*10**count)
+    b += nm2*10**count
+    print(count)
+    count += 1
+print (b)
+    
+
+    
